@@ -1,6 +1,7 @@
 PHP Framework Interoperability Group
 ====================================
 
+The idea behind the group is for project representatives to talk about the commonalities between our projects and find ways we can work together. Our main audience is each other, but we’re very aware that the rest of the PHP community is watching. If other folks want to adopt what we’re doing they are welcome to do so, but that is not the aim.
 
 Proposing a Standards Recommendation
 ------------------------------------
@@ -49,6 +50,8 @@ Voting Members
 
 1. Jordi Boggiano: Composer, Packagist
 
+1. Pádraic Brady: Zend Framework
+
 1. Karma Dordrak: Zikula
 
 1. Paul Dragoonis: PPI, PPI2
@@ -60,6 +63,8 @@ Voting Members
 1. Cal Evans: the community at large
 
 1. Larry Garfield: Drupal
+
+1. Ivan Habunek: Apache log4php
 
 1. Paul M. Jones: Solar Framework, Aura Project
 
@@ -75,18 +80,14 @@ Voting Members
 
 1. Fabien Potencier: Symfony, Symfony2
 
-1. Andre Romcke: eZ Publish
+1. Mike van Riel: phpDocumentor
 
-1. Paul Scott: Chisimba, C4
+1. Andre Romcke: eZ Publish
 
 1. Phil Sturgeon: PyroCMS
 
 1. Lukas Smith: Jackalope
 
 1. Kris Wallsmith: Assetic, Buzz
-
-1. Mike van Riel: phpDocumentor
-
-1. Matthew Weier O'Phinney: Zend Framework, Zend Framework 2
 
 1. David Zülke: Agavi
