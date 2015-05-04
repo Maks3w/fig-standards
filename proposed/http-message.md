@@ -603,9 +603,9 @@ namespace Psr\Http\Message;
  * from a server to a client. This interface defines the methods common to
  * each.
  *
- * Messages are considered immutable; all methods that might change state MUST
- * be implemented such that they retain the internal state of the current
- * message and return an instance that contains the changed state.
+ * Messages are considered immutable.{@internal all methods that might change
+ * state MUST be implemented such that they retain the internal state of the
+ * current  message and return an instance that contains the changed state.}}
  *
  * @see http://www.ietf.org/rfc/rfc7230.txt
  * @see http://www.ietf.org/rfc/rfc7231.txt
@@ -615,7 +615,10 @@ interface MessageInterface
     /**
      * Retrieves the HTTP protocol version as a string.
      *
-     * The string MUST contain only the HTTP version number (e.g., "1.1", "1.0").
+     * {@internal
+     * The string MUST contain only the HTTP version number (e.g.,
+     * "1.1", "1.0").
+     * }}
      *
      * @return string HTTP protocol version.
      */
@@ -627,9 +630,11 @@ interface MessageInterface
      * The version string MUST contain only the HTTP version number (e.g.,
      * "1.1", "1.0").
      *
+     * {@internal
      * This method MUST be implemented in such a way as to retain the
      * immutability of the message, and MUST return an instance that has the
      * new protocol version.
+     * }}
      *
      * @param string $version HTTP protocol version
      * @return self
@@ -658,8 +663,10 @@ interface MessageInterface
      * exact case in which headers were originally specified.
      *
      * @return string[][] Returns an associative array of the message's headers.
+     *     {@internal
      *     Each key MUST be a header name, and each value MUST be an array of
      *     strings for that header.
+     *     }}
      */
     public function getHeaders();
 
